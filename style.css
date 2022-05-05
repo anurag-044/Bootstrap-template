@@ -115,6 +115,26 @@ body   {
 
 .factback{
     height: 400px;
-    background: linear-gradient(rgba(0, 0, 0, 0.76),rgba(0, 0, 0, 0.76)), url(bg2.jpg);
+    background: linear-gradient(209deg, rgba(0,0,0,0.7234244039412641) 0%, rgba(0,0,0,0.8354692218684349) 43%), url(bg2.jpg);
     background-size: cover;
+}
+
+
+@media (max-width:992px) {
+
+    .factback{  
+        height: 400px;
+        background-size: cover
+    } 
+}
+
+
+@media (max-width:769px) {
+
+    .factback{  
+        height: 500px;
+        background-size: cover
+    } 
+
+    
 }
