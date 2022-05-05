@@ -1,5 +1,14 @@
+body   {
+    overflow-x: hidden;
+}
 .nav-color{
-    background-color: rgba(0, 0, 0, 0.548);
+    background-color: rgba(0, 0, 0, 0.751);
+    
+}
+
+.color-white{
+    color: white;
+
 }
 
 .backgrnd{
@@ -102,4 +111,10 @@
     } 
 
     
+}
+
+.factback{
+    height: 400px;
+    background: linear-gradient(rgba(0, 0, 0, 0.76),rgba(0, 0, 0, 0.76)), url(bg2.jpg);
+    background-size: cover;
 }
