@@ -123,7 +123,7 @@ body   {
 @media (max-width:992px) {
 
     .factback{  
-        height: 400px;
+        height: 600px;
         background-size: cover
     } 
 }
@@ -132,7 +132,7 @@ body   {
 @media (max-width:769px) {
 
     .factback{  
-        height: 500px;
+        height: 900px;
         background-size: cover
     } 
 
