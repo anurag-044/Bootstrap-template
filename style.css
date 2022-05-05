@@ -1,6 +1,4 @@
-body   {
-    overflow-x: hidden;
-}
+
 .nav-color{
     background-color: rgba(0, 0, 0, 0.751);
     
@@ -114,7 +112,7 @@ body   {
 }
 
 .factback{
-    height: 400px;
+    height: 450px;
     background: linear-gradient(209deg, rgba(0,0,0,0.7234244039412641) 0%, rgba(0,0,0,0.8354692218684349) 43%), url(bg2.jpg);
     background-size: cover;
 }
@@ -132,6 +130,18 @@ body   {
 @media (max-width:769px) {
 
     .factback{  
+        height: 700px;
+        background-size: cover;
+      
+
+    } 
+
+    
+}
+
+@media (max-width:576px) {
+
+    .factback{  
         height: 1000px;
         background-size: cover;
       
@@ -140,3 +150,28 @@ body   {
 
     
 }
+.bor{
+    border: solid 1px;
+    width: 130px;
+    height: 130px;
+    padding: 5px;
+    transform: rotate(45deg);
+}
+.react{
+    border: solid 3px black;
+  
+    width: 120px;
+    height: 120px;
+    overflow: hidden;
+  
+    transform: rotate(-90deg);
+}
+
+.react img{
+   
+    width: 200px;
+    top: 50%;
+    left: 55%;
+    transform: translate(-50%,-50%) rotate(45deg);
+}
+
