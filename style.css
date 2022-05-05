@@ -124,7 +124,7 @@ body   {
 
     .factback{  
         height: 600px;
-        background-size: cover
+        background-size: cover;
     } 
 }
 
@@ -132,8 +132,10 @@ body   {
 @media (max-width:769px) {
 
     .factback{  
-        height: 900px;
-        background-size: cover
+        height: 1000px;
+        background-size: cover;
+      
+
     } 
 
     
